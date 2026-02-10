@@ -50,3 +50,12 @@ reconhecido. A função falar_texto utiliza a biblioteca gTTS para converter o t
 no ambiente de execução. Por fim, a função main organiza todo o fluxo, desde a escolha da entrada pelo usuário até a geração da resposta em áudio, incluindo marcações de data e 
 hora em cada etapa e cálculo do tempo total de execução. Essa estrutura modular facilita a compreensão do código, a manutenção e futuras expansões do projeto.
 
+Aqui está a seção final de licença e contribuições em texto corrido para complementar o seu README:
+
+Este projeto é disponibilizado sob a licença MIT, permitindo uso, modificação e distribuição livre, desde que seja mantida a atribuição ao autor original. A escolha dessa licença 
+garante flexibilidade para desenvolvedores que desejem adaptar ou expandir o código em diferentes contextos. Quanto às contribuições, qualquer pessoa interessada pode colaborar 
+abrindo issues para relatar problemas ou sugerir melhorias, além de enviar pull requests com alterações no código. Recomenda-se que os colaboradores sigam boas práticas de 
+programação, mantenham a clareza nos commits e respeitem a estrutura já definida no repositório. Essa abertura para contribuições tem como objetivo incentivar a evolução contínua 
+do projeto e fortalecer a comunidade em torno dele.
+
+
