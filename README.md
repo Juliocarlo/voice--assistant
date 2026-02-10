@@ -68,3 +68,14 @@ open source que mantém e atualiza essas ferramentas, possibilitando a criação
 oficial de Whisper, gTTS, ffmpeg e Google Colab.
 
 
+Aqui está a seção de considerações finais em texto corrido para complementar o seu README:
+
+Este projeto foi desenvolvido com finalidade de estudo e prática, demonstrando a integração entre captura de áudio, transcrição automática com Whisper e síntese de voz com 
+gTTS em um fluxo simples e funcional. Não se trata de uma aplicação de produção, mas sim de um protótipo voltado para experimentação em ambientes como o Google Colab. 
+Entre as limitações estão a dependência do Colab para gravação via navegador e a restrição de tempo máximo de sessenta segundos por áudio. Apesar disso, o código pode 
+servir como base para futuras expansões, como suporte a diferentes idiomas, utilização de modelos mais avançados de transcrição ou implementação de interfaces gráficas. 
+O projeto cumpre seu papel como ferramenta de aprendizado, permitindo compreender de forma prática como unir bibliotecas de processamento de áudio, inteligência artificial 
+e síntese de voz em um único fluxo.
+
+
+
