@@ -19,3 +19,13 @@ transcrição e, em seguida, convertido em voz sintetizada. O sistema também ap
 gravação, transcrição e resposta.
 Em resumo, este projeto integra captura de áudio, processamento de duração, transcrição automática com Whisper e síntese de voz com gTTS, oferecendo uma solução 
 completa para transformar fala em texto e texto em fala dentro do ambiente Google Colab.
+
+Aqui está a seção de instalação e execução em texto corrido para complementar o seu README:
+
+Para utilizar este projeto é necessário preparar o ambiente com as dependências listadas. A instalação pode ser feita executando o comando pip install -r requirements.txt, 
+que instalará automaticamente os pacotes openai-whisper, gTTS, ffmpeg-python, numpy e torch. Após a instalação, o projeto pode ser executado de duas formas: abrindo 
+o notebook exemplo_colab.ipynb no Google Colab ou rodando diretamente o arquivo main.py em um ambiente Python configurado. No Colab, o usuário poderá escolher entre gravar 
+áudio pelo navegador ou fazer upload de um arquivo. A gravação é limitada a sessenta segundos e salva o arquivo como entrada.wav. No caso de upload, o sistema verifica a 
+duração e corta o áudio se necessário. Em seguida, o áudio é transcrito pelo modelo Whisper e convertido em voz sintetizada com gTTS, gerando o arquivo resposta.mp3. 
+Durante o processo, o sistema informa a data e hora de cada etapa e o tempo total de execução. Essa sequência garante que qualquer usuário consiga instalar, configurar e 
+executar o projeto sem dificuldades.
