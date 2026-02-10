@@ -39,3 +39,14 @@ gerando entrada_cortada.wav. Em ambos os casos, o áudio é transcrito pelo mode
 Em seguida, o texto é convertido em voz sintetizada com gTTS, criando o arquivo resposta.mp3, que pode ser reproduzido diretamente no ambiente de execução. Durante todo o 
 processo, o sistema informa as etapas realizadas, incluindo gravação, transcrição e resposta, além do tempo total de execução. Esses exemplos demonstram como o fluxo completo 
 funciona, desde a captura de áudio até a geração da resposta em voz.
+
+Aqui está a seção detalhando as principais funções e módulos do projeto em texto corrido para complementar o README:
+
+O projeto é composto por funções que organizam o fluxo de captura, processamento e resposta em áudio. A função gravar_navegador é responsável por iniciar a gravação diretamente 
+pelo navegador, utilizando código JavaScript integrado ao Google Colab para acessar o microfone e salvar o áudio em formato WAV. A função saveAudio atua como callback, recebendo 
+os dados em base64 e convertendo-os em arquivo entrada.wav. A função cortar_audio verifica a duração do arquivo de áudio e, caso ultrapasse sessenta segundos, utiliza o ffmpeg 
+para cortar o conteúdo e gerar entrada_cortada.wav. A função transcrever_audio carrega o modelo Whisper na versão base e realiza a transcrição do áudio, retornando o texto 
+reconhecido. A função falar_texto utiliza a biblioteca gTTS para converter o texto transcrito em voz sintetizada, salvando o resultado em resposta.mp3 e permitindo a reprodução 
+no ambiente de execução. Por fim, a função main organiza todo o fluxo, desde a escolha da entrada pelo usuário até a geração da resposta em áudio, incluindo marcações de data e 
+hora em cada etapa e cálculo do tempo total de execução. Essa estrutura modular facilita a compreensão do código, a manutenção e futuras expansões do projeto.
+
