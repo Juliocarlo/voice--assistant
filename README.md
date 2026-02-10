@@ -58,4 +58,13 @@ abrindo issues para relatar problemas ou sugerir melhorias, além de enviar pull
 programação, mantenham a clareza nos commits e respeitem a estrutura já definida no repositório. Essa abertura para contribuições tem como objetivo incentivar a evolução contínua 
 do projeto e fortalecer a comunidade em torno dele.
 
+Aqui está a seção de créditos e referências em texto corrido para complementar o seu README:
+
+Este projeto faz uso de diversas bibliotecas e ferramentas que merecem reconhecimento. A transcrição de áudio é realizada com o modelo Whisper, desenvolvido pela OpenAI, enquanto 
+a síntese de voz é feita com a biblioteca gTTS, que utiliza o serviço Google Text-to-Speech. O processamento de arquivos multimídia é apoiado pelo ffmpeg, integrado ao Python por 
+meio da biblioteca ffmpeg-python. Operações matemáticas e suporte ao modelo de aprendizado de máquina são fornecidos pelo numpy e pelo torch. O ambiente Google Colab é utilizado 
+como plataforma principal de execução, permitindo integração com JavaScript para captura de áudio pelo navegador e manipulação de arquivos. Além disso, agradece-se a comunidade 
+open source que mantém e atualiza essas ferramentas, possibilitando a criação de soluções práticas e acessíveis. Para mais detalhes técnicos, recomenda-se consultar a documentação 
+oficial de Whisper, gTTS, ffmpeg e Google Colab.
+
 
